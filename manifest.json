@@ -1,0 +1,15 @@
+{
+    "manifest_version":3,
+    "name":"Coloria",
+    "description":"Get the hexa code for any color on your screen to use it in one of your projects",
+    "version":"1.0.0",
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "icons/logo.png",
+        "32": "icons/logo.png",
+        "48": "icons/logo.png",
+        "128": "icons/logo.png"
+    }
+}
