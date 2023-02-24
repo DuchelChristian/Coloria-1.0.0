@@ -5,6 +5,11 @@ const pickedColors = JSON.parse(localStorage.getItem(".picked-colors")||"[]");
 
 
 //First we got all of our sections.
+const copyColor = (elem) => {
+    elem.innerText = "Copied";
+    navigator.clipboard.writeText(elem.dataset.color);
+    setTimeout(() => elem.innerText = elem.dataset.color, 1000);
+}
 
 const showColor = () => {
     if(!pickedColors.length) return; 
