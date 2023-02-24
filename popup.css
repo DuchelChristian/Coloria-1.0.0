@@ -5,11 +5,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    background: #cfc0c0;
   }
-
+   
   .popup {
     width: 350px;
     background: #cfc0c0;
+    border-radius: 20px;
   }
   .popup :where(.picker, header, .all-colors) {
     display: flex;
@@ -17,18 +19,18 @@
   }
   .popup .picker {
     padding: 30px 0;
-    background: #b5bdc2;
+    background: #f7e5e5;
     justify-content: center;
   }
   .picker #color-picker {
     border: none;
     outline: none;
-    color: #fff;
+    color: #ebd6d6;
     font-size: 1rem;
     cursor: pointer;
     padding: 10px 20px;
     border-radius: 5px;
-    background: #04fd6c9f;
+    background: #6900f39f;
     transition: 0.3s ease;
   }
   #color-picker:hover {
