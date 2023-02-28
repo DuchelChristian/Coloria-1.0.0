@@ -1,0 +1,7 @@
+Since this extension is not yet on the Chrome Store, here are the instructions to test it.
+
+Download all the files into another file on your computer. 
+Then go into Chrome and type this chrome://extensions/
+In the top right corner activate the developping mode
+In top left corner click on "load an unpacked extension" and load the file containing the extension
+Activate the extension, pin it and then go to another tab, any website and test it. 
